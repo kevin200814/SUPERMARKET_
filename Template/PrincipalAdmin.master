@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="PrincipalAdmin.master.cs" Inherits="Template_PrincipalAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>La Tiendita</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/Site.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="~/">La Tiendita <span> SuperMarket </span></a></div>
+        <a href="#menu">Menu</a>
+    </header>
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Registrarse</a></li>
+            <li><a href="#">Realizar un Pedido</a></li>
+            <li><a href="#">Vegetales</a></li>
+            <li><a href="#">Frutas</a></li>
+            <li><a href="#">Carnes</a></li>
+            <li><a href="#">Mariscos</a></li>
+            <li><a href="#">Licores</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">Tecnologia</a></li>
+            <li><a href="#">Cerrar Sesion</a></li>
+
+        </ul>
+    </nav>
+    <div class="container body-content">
+         <br>
+        
+    <form id="form1" runat="server">
+  
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           </form>
+
+    </div>
+        <hr />
+        <footer>
+            <p>&copy; 2021 - La Tiendita. All rights reserved - Visitanos en Calle ARCE</p>
+        </footer>
+
+     <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.scrollex.min.js"></script>
+    <script src="../js/skel.min.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/main.js"></script>
+
+    
+ 
+</body>
+</html>

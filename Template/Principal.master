@@ -1,0 +1,302 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Principal.master.cs" Inherits="Template_Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>La Tiendita</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/Site.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="logo"><a href="IndexPrincipal.aspx">La Tiendita <span> SuperMarket </span></a></div>
+        <a href="#menu">Menu</a>
+    </header>
+    <!-- Nav -->
+    <nav id="menu">
+        <ul class="links">
+            <li><a href="../webformsADM/IndexPrincipal.aspx">Inicio</a></li>
+            <li><a href="../webformsADM/Login.aspx">Iniciar Sesion</a></li>
+            <li><a href="#">Registrarse</a></li>
+            <li><a href="#">Realizar un Pedido</a></li>
+
+            <li><a href="../webformsADM/persona/indexPersona.aspx">Personas Registradas</a></li>
+            <li><a href="../webformsADM/persona/IndexSexo.aspx">Tipo de genero</a></li>
+            <li><a href="../webformsADM/persona/indexEmpleado.aspx">Empleados</a></li>
+            <li><a href="../webformsADM/producto/ProductosAdmin.aspx">Productos</a></li>
+            <li><a href="../webformsADM/persona/IndexCargoLaboral.aspx">Tipos de cargo laboral</a></li>
+            <li><a href="../webformsADM/persona/IndexTipoTelefono.aspx">Tipos de telefono</a></li>
+            <li><a href="../webformsADM/producto/IndexProveedor.aspx">Proveedores</a></li>
+            <li><a href="../webformsADM/producto/IndexTipoProd.aspx">Tipos de Productos</a></li>
+            <li><a href="../webformsADM/USUARIO/IndexTipoUser.aspx">Tipos de Usuario</a></li>
+            <li><a href="../webformsADM/UBICACION/IndexCiudad.aspx">Ciudades</a></li>
+            <li><a href="../webformsADM/UBICACION/IndexDepartamento.aspx">Departamentos</a></li>
+            <li><a href="../webformsADM/UBICACION/IndexPais.aspx">Pais</a></li>
+            <li><a href="../webformsADM/UBICACION/IndexSucursal.aspx">Sucursal</a></li>
+            <li><a href="#">Vegetales</a></li>
+            <li><a href="#">Frutas</a></li>
+            <li><a href="#">Carnes</a></li>
+            <li><a href="#">Mariscos</a></li>
+            <li><a href="#">Licores</a></li>
+            <li><a href="#">Snacks</a></li>
+            <li><a href="#">Tecnologia</a></li>
+            <li><a href="#">Cerrar Sesion</a></li>
+
+        </ul>
+    </nav>
+
+    <section class="banner full">
+        <article>
+            <img src="../img/slide/slide01.jpg" width="540" alt="" />
+            <div class="inner">
+                <header>
+                    <p>La Tiendita</p>
+                    <h2>SuperMarket</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide02.jpg"/>
+            <div class="inner">
+                <header>
+                    <p>EL MEJOR PRODUCTO</p>
+                    <h2>Como en casa</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide03.jpg" alt="" />
+            <div class="inner">
+                <header>
+                    <p>LOS MEJORES PRECIOS</p>
+                    <h2>Para tu bolsillo</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide04.jpg" alt="" />
+            <div class="inner">
+                <header>
+                    <p>EN EL MEJOR LUGAR</p>
+                    <h2>Para tu familia</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide05.jpg" alt="" />
+            <div class="inner">
+                <header>
+                    <p>DONDE TODOS SALEN</p>
+                    <h2>Satisfechos</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide06.jpg" alt="" />
+            <div class="inner">
+                <header>
+                    <p>LA TECNOLOGIA </p>
+                    <h2>nuestro compromiso</h2>
+                </header>
+            </div>
+        </article>
+        <article>
+            <img src="../img/slide/slide07.jpg" alt="" />
+            <div class="inner">
+                <header>
+                    <p>LA SALUD </p>
+                    <h2>nuestra prioridad</h2>
+                </header>
+            </div>
+        </article>
+    </section>
+    <!-- One -->
+    <section id="one" class="wrapper style2">
+        <div class="inner">
+            <div class="grid-style">
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-Home-Muebles.png" alt="" width="10" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-Home-Supermercado.png" alt="" width="50" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style2">
+        <div class="inner">
+            <div class="grid-style">
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-Home-Linea-Blanca.png" alt="" width="10" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-Home-Mascotas.png" alt="" width="50" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- One -->
+    <section id="one" class="wrapper style2">
+        <div class="inner">
+            <div class="grid-style">
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-Home-Tecnologia-2.png" alt="" width="10" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="box">
+                        <div class="image fit">
+                            <img src="../img/slide/Banners-Categorias-TV-Audio-y-Video.png" alt="" width="50" height="300" />
+                        </div>
+                        <div class="content">
+                            <header class="align-center">
+                                <p>nuestros productos</p>
+                                <h2>preparan los mejores y mas frescos</h2>
+                            </header>
+                            <p> los productos que vendemos son de la mejor calidad y a un buen precio, contamos con un variado menú para poder satisfacer las necesidades de todos nuestros clientes</p>
+                            <footer class="align-center">
+                                <a href="#" class="button alt">Learn More</a>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Two -->
+    <section id="two" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <p>No te pierdas la oportunidad</p>
+                <h2>y ven a probar nuestra frutas frescas</h2>
+            </header>
+        </div>
+    </section>
+    <!-- Three -->
+    <section id="three" class="wrapper style2">
+        <div class="inner">
+            <header class="align-center">
+                <p class="special">cada pedido es especial para nosotros</p>
+                <h2>por eso los clientes vuelven</h2>
+            </header>
+        </div>
+    </section>
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            &copy;2021 - La Tiendita. All rights reserved.- Visitanos en Calle ARCE
+        </div>
+    </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.scrollex.min.js"></script>
+    <script src="../js/skel.min.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/main.js"></script>
+
+
+    
+</body>
+</html>
