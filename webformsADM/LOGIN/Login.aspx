@@ -34,7 +34,7 @@
                     <div class="form-group">
                         <br/>
                         <div class="col-m-12">
-                            <asp:HyperLink runat="server" NavigateUrl="~/LOGIN/Registrarse.aspx">Registrarse</asp:HyperLink>
+                            <!--<asp:HyperLink runat="server" NavigateUrl="~/LOGIN/Registrarse.aspx">Registrarse</asp:HyperLink>-->
                             <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
                         </div>
                     </div>

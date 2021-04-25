@@ -9,7 +9,7 @@ public partial class Template_Principal : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-        /*if (this.Session["USUARIO"] == null)
+        if (this.Session["USUARIO"] == null)
         {
             Response.Redirect("~/webformsADM/LOGIN/Login.aspx");
         }
@@ -18,7 +18,6 @@ public partial class Template_Principal : System.Web.UI.MasterPage
             string sess = Session["USUARIO"].ToString();
             Label1.Text = sess;
         }
-        */
     }
 
     protected void CerrarSesion(object sender, EventArgs e)
