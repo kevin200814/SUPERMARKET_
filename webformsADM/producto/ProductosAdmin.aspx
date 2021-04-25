@@ -3,9 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
-     <h2>Productos</h2>
-
+ <div class="container body-content">
+          <h2>Productos</h2>
+           <br />
+           <br />
       <p>
         <asp:LinkButton  ID="btnNuevo" runat="server"  OnClick="btnNuevo_Click"   ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
   <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -29,7 +30,7 @@
              <asp:TemplateField>
              <ItemTemplate>
 
-                 <asp:Image ID="img" ImageUrl='<%#"~/img/"+Eval("IMG") %>' runat="server" />
+                 <asp:Image ID="img" ImageUrl='<%#"~/IMG_SUPERMARKET/"+Eval("IMG") %>' runat="server" />
                  </ItemTemplate>
             </asp:TemplateField>
 
@@ -55,6 +56,6 @@
      </asp:GridView>
 
      <asp:ObjectDataSource ID="OdsProductos" runat="server" SelectMethod="Mostarproducto" TypeName="PRODUCTOS_BLL"></asp:ObjectDataSource>
-
+</div>
 </asp:Content>
 

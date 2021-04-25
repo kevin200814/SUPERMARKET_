@@ -37,7 +37,7 @@
                         <asp:Label ID="Label4" runat="server" Text="Label">persona</asp:Label>
                         <asp:dropdownlist ID = "Dropdownlist3" Height="32px" Width="944px" runat="server" DataSourceID="odsPersona" DataTextField="PRIMER_NOMBRE_PERSONA" DataValueField="ID_PERSONA"></asp:dropdownlist>
                         <asp:ObjectDataSource ID="odsPersona" runat="server" SelectMethod="MostrarTodos" TypeName="PERSONA_BLL"></asp:ObjectDataSource>
-                        <asp:TextBox runat="server" Height="32px" Width="944px" CssClass="form-control" Rows="5" ID="txt_ID_PERSONA_EMPLEADO" placeholder="Ingrese Persona Empleado"></asp:TextBox>
+                       
                     </div>
                 </div>
 

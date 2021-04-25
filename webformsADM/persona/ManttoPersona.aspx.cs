@@ -23,8 +23,8 @@ public partial class Vistas_ManttoPersona : System.Web.UI.Page
                 txt_FECHA_NACIMIENTO_PERSONA.Text = "" + objPermisos.FECHA_NACIMIENTO_PERSONA;
                 txt_NUMERO_IDENTIDAD_PERSONA.Text = objPermisos.NUMERO_IDENTIDAD_PERSONA;
                 txt_DIRECCION_RESIDENCIA_PERSONA.Text = objPermisos.DIRECCION_RESIDENCIA_PERSONA;
-                DropDownList1.SelectedItem.Value = "" + objPermisos.ID_CIUDAD_RESIDENCIA_PERSONA;
-                DropDownList2.SelectedItem.Value = "" + objPermisos.ID_SEXO_PERSONA;
+                DropDownList1.Text = "" + objPermisos.ID_CIUDAD_RESIDENCIA_PERSONA;
+                DropDownList2.Text = "" + objPermisos.ID_SEXO_PERSONA;
 
 
             }
@@ -64,7 +64,7 @@ public partial class Vistas_ManttoPersona : System.Web.UI.Page
         string SEGUNDO_NOMBRE_PERSONA = txt_SEGUNDO_NOMBRE_PERSONA.Text;
         string PRIMER_APELLIDO_PERSONA = txt_PRIMER_APELLIDO_PERSONA.Text;
         string SEGUNDO_APELLIDO_PERSONA = txt_SEGUNDO_APELLIDO_PERSONA.Text;
-        DateTime FECHA_NACIMIENTO_PERSONA = DateTime.ParseExact(txt_FECHA_NACIMIENTO_PERSONA.Text, "yyyy/MM/dd", null);
+        DateTime FECHA_NACIMIENTO_PERSONA = DateTime.Parse(txt_FECHA_NACIMIENTO_PERSONA.Text);
         string NUMERO_IDENTIDAD_PERSONA = txt_NUMERO_IDENTIDAD_PERSONA.Text;
         string DIRECCION_RESIDENCIA_PERSONA = txt_DIRECCION_RESIDENCIA_PERSONA.Text;
         int ID_CIUDAD_RESIDENCIA_PERSONA = Convert.ToInt32(DropDownList1.SelectedItem.Value);

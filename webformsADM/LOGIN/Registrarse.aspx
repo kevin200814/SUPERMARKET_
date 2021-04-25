@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template/PrincipalAdmin.master" AutoEventWireup="true" CodeFile="Registrarse.aspx.cs" Inherits="LOGIN_Registrarse" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Template/PrincipClien.master" AutoEventWireup="true" CodeFile="Registrarse.aspx.cs" Inherits="LOGIN_Registrarse" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

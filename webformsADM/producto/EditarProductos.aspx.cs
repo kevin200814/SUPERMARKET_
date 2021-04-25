@@ -29,14 +29,14 @@ public partial class webformsADM_producto_EditarProductos : System.Web.UI.Page
                     DropDownList2.Text = "" + objpermisos.ID_SUCURSAL_PRODUCTO;
                     TxtPrecio.Text = "" + objpermisos.PRECIO;
                     TxtDescripcion.Text = "" + objpermisos.DESCRIPCION_PRODUCTO;
-                    Image1.ImageUrl = "../../img/" + objpermisos.IMG.ToString();
+                    Image1.ImageUrl = "~/IMG_SUPERMARKET/" + objpermisos.IMG.ToString();
                 }
             }
         }
 
     }
 
-  
+
     protected void BtnGuardar_Click(object sender, EventArgs e)
     {
 
@@ -65,7 +65,7 @@ public partial class webformsADM_producto_EditarProductos : System.Web.UI.Page
             Response.Write(exten + "," + tamano);
             nomIMG = FileUpload1.FileName;
 
-            FileUpload1.SaveAs(Server.MapPath("../../img/" + FileUpload1.FileName));
+            FileUpload1.SaveAs(Server.MapPath("../IMG_SUPERMARKET/" + FileUpload1.FileName));
 
             try
             {
@@ -102,7 +102,8 @@ public partial class webformsADM_producto_EditarProductos : System.Web.UI.Page
         Calendar2.Visible = !Calendar2.Visible;
     }
 
-   
+
+
     protected void btnActualizar_Click(object sender, EventArgs e)
     {
 
@@ -119,7 +120,7 @@ public partial class webformsADM_producto_EditarProductos : System.Web.UI.Page
         double vent = Convert.ToDouble(TxtVent.Text);
         int cant = Convert.ToInt32(TxtCant.Text);
         int tiprod = Convert.ToInt32(DropDownList1.SelectedItem.Value);
-        int sucprod = Convert.ToInt32(DropDownList1.SelectedItem.Value);
+        int sucprod = Convert.ToInt32(DropDownList2.SelectedItem.Value);
         double prec = Convert.ToDouble(TxtPrecio.Text);
         string descprod = TxtDescripcion.Text;
 
@@ -131,7 +132,7 @@ public partial class webformsADM_producto_EditarProductos : System.Web.UI.Page
             Response.Write(exten + "," + tamano);
             nomIMG = FileUpload1.FileName;
 
-            FileUpload1.SaveAs(Server.MapPath("../../img/" + FileUpload1.FileName));
+            FileUpload1.SaveAs(Server.MapPath("../IMG_SUPERMARKET/" + FileUpload1.FileName));
 
             try
             {
