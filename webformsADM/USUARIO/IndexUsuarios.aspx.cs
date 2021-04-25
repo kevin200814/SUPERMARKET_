@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class USUARIO_IndexTipoUser : System.Web.UI.Page
+public partial class USUARIO_IndexUsuarios : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -22,7 +22,6 @@ public partial class USUARIO_IndexTipoUser : System.Web.UI.Page
 
     protected void btnNuevo_Click(object sender, EventArgs e)
     {
-        Response.Redirect("~/USUARIO/ManttoTipoUser.aspx");
+        Response.Redirect("~/USUARIO/ManttoUser.aspx");
     }
-
 }

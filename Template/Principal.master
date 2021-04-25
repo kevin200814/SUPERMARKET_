@@ -21,6 +21,7 @@
     <!-- Header -->
     <header id="header">
         <div class="logo"><a href="IndexPrincipal.aspx">La Tiendita <span> SuperMarket </span></a></div>
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <a href="#menu">Menu</a>
     </header>
     <!-- Nav -->
@@ -55,7 +56,13 @@
 
         </ul>
     </nav>
-
+    <form id="form1" runat="server">
+        <asp:Button ID="Button1" OnClick="CerrarSesion" runat="server" Text="Cerrar sesión" />
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">   
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
     <section class="banner full">
         <article>
             <img src="../img/slide/slide01.jpg" width="540" alt="" />
@@ -268,12 +275,7 @@
     </section>
 
 
-    <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        </asp:ContentPlaceHolder>
-    </div>
-    </form>
+    
 
     <!-- Footer -->
     <footer id="footer">

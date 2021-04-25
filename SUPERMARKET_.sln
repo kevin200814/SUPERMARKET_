@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SUPERMARKET_", ".", "{03DA3858-8C15-44A4-9B19-7285B960E95E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49822"
+		Debug.AspNetCompiler.PhysicalPath = "..\SUPERMARKET_\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49822\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49822"
+		Release.AspNetCompiler.PhysicalPath = "..\SUPERMARKET_\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49822\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49822"
+		SlnRelativePath = "..\SUPERMARKET_\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03DA3858-8C15-44A4-9B19-7285B960E95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03DA3858-8C15-44A4-9B19-7285B960E95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
